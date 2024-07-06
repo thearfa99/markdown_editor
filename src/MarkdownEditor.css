@@ -1,0 +1,36 @@
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .markdown-editor {
+    display: flex;
+    flex-direction: row; /* Ensure it's row to place items side by side */
+    align-items: flex-start; /* Align items at the start vertically */
+    padding: 20px;
+    height: 100vh; /* Use viewport height to allow scrolling */
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    width: 48%; /* Adjust the width to give more space for the preview */
+    margin-right: 4%; /* Add a small margin to separate the areas */
+    padding: 10px;
+    font-size: 16px;
+    height: 100%; /* Fill the height of the container */
+    box-sizing: border-box;
+    overflow-y: auto; /* Allow scrolling within the textarea */
+  }
+  
+  .preview {
+    width: 48%; /* Adjust the width to give more space for the textarea */
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    height: 100%; /* Fill the height of the container */
+    box-sizing: border-box;
+    overflow-y: auto; /* Add scroll if content overflows */
+  }
+  
+  
