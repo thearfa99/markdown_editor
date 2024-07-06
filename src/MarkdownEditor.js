@@ -11,11 +11,11 @@ function MarkdownEditor() {
     setMarkdown(e.target.value);
   };
 
-/* const handleTextareaScroll = (e) => {
+  const handleTextareaScroll = (e) => {
     const { scrollTop, scrollHeight, clientHeight } = e.target;
     const scrollPercentage = scrollTop / (scrollHeight - clientHeight);
     previewRef.current.scrollTop = scrollPercentage * 0.95 * (previewRef.current.scrollHeight - previewRef.current.clientHeight);
-  };*/
+  };
 
   return (
     <div className="markdown-editor">
